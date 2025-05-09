@@ -1,22 +1,18 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Desculpa, Amor</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pedido de Desculpas</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="card" onclick="abrirCarta()">
-    <div class="frente">Clique para abrir 💌</div>
-    <div class="dentro">
-      <h1>Desculpa, meu amor 😔</h1>
-      <p>Eu errei e me arrependo profundamente. Você é a melhor parte da minha vida, e eu quero fazer tudo certo entre nós. Me perdoa?</p>
-      <button onclick="responder(event)">💖 Te amo 💖</button>
-    </div>
+  <div class="container">
+    <h1>Desculpa, amor 😔</h1>
+    <p>Eu realmente sinto muito. Eu errei e quero te pedir perdão. 💖</p>
+    <button id="revealMessage">Abrir Mensagem</button>
+    <p id="hiddenMessage" class="hidden">Eu prometo fazer o meu melhor para não repetir o erro. Eu te amo muito! 💘</p>
   </div>
-
   <script src="script.js"></script>
 </body>
 </html>
-
